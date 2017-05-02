@@ -1,3 +1,7 @@
-<h1>
-  {{title}}
-</h1>
+<h1>Color Me!</h1>
+
+<select (change)="onChangeColor($event.target.value)">
+  <option *ngFor="let c of colors">{{c}}</option>
+</select>
+
+<button (click)="onColor()">Color the range</button>

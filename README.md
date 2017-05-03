@@ -16,7 +16,7 @@ This project is showing how you can use Office.js and Angular 4 to build an Exce
 
 3. Open Excel and click the Add-in to load.
 
-<img width="1441" alt="screenshot" src="https://cloud.githubusercontent.com/assets/3375461/25649833/8f90e84c-2f8d-11e7-8fae-652ed659bb24.png">
+<img width="1441" alt="screenshot" src="https://cloud.githubusercontent.com/assets/3375461/25650128/983a54a4-2f8f-11e7-89d8-700d7feb9b6e.png">
 
 ## How to create a new project by yourself
 

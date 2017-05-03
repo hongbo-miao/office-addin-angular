@@ -1,12 +1,13 @@
 # Color me
 
-This project is showing how you can use Angular 4 with Office.js to build an Excel add-in.
+This project is showing how you can use Office.js and Angular 4 to build an Excel add-in.
 
 ## How to run
 
-1. To run the add-in, you'd need to side-load the add-in within Excel application. Below sections describe the side-loading of manifest file in each of the platforms.
+1. To run the add-in, you need side-load the add-in within the Excel application. Below sections describe the side-loading of manifest file in each of the platforms.
 
     - On Windows, follow [this tutorial](https://dev.office.com/docs/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins).
+
     - On macOS, move the manifest file `angular-office-add-in-manifest.xml` to the folder `/Users/{username}/Library/Containers/com.microsoft.Excel/Data/Documents/wef` (if not exist, create one)
 
     - For Excel Online, use the upload my add-in button from the add-in command dialog to upload the manifest file. 

@@ -4,13 +4,12 @@ This project is showing how you can use Angular 4 with Office.js to build an Exc
 
 ## How to run
 
-In order to run the add-in, you'd need to side-load the add-in within Excel application. Below sections describe the side-loading of manifest file in each of the platforms. 
+1. In order to run the add-in, you'd need to side-load the add-in within Excel application. Below sections describe the side-loading of manifest file in each of the platforms. 
 
-1A. On Windows, follow [this tutorial](https://dev.office.com/docs/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins).
+- On Windows, follow [this tutorial](https://dev.office.com/docs/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins).
+- On macOS, move the manifest file `angular-office-add-in-manifest.xml` to the folder `/Users/{username}/Library/Containers/com.microsoft.Excel/Data/Documents/wef` (if not exist, create one)
 
-1B. On macOS, move the manifest file `angular-office-add-in-manifest.xml` to the folder `/Users/{username}/Library/Containers/com.microsoft.Excel/Data/Documents/wef` (if not exist, create one)
-
-1C. Use the upload my add-in button from the add-in command dialog to upload the manifest file. 
+- For Excel Online, use the upload my add-in button from the add-in command dialog to upload the manifest file. 
 
 2. Run `ng serve` for a dev server.
 

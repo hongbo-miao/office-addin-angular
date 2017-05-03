@@ -24,3 +24,7 @@ This project is showing how you can use Office.js and Angular 4 to build an Exce
 
 2. Generate the manifest file using [YO Office](https://github.com/OfficeDev/generator-office). When you generate, choose only generating the manifest file.
 Then replace all the ports in the generated manifest file from `3000` to `4200`.
+
+## Learn more 
+
+To learn more about JavaScript API for Office (Office.js), please check [here](https://dev.office.com/reference/add-ins/javascript-api-for-office).

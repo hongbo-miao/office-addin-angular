@@ -20,10 +20,7 @@ This project is showing how you can use Office.js and Angular 4 to build an Exce
 
 ## How to create a new project by yourself
 
-1. Generate the Angular project using [Angular CLI](https://github.com/angular/angular-cli).
-
-2. Generate the manifest file using [YO Office](https://github.com/OfficeDev/generator-office). When you generate, choose only generating the manifest file.
-Then replace all the ports in the generated manifest file from `3000` to `4200`.
+Follow the step by step tutorial [here](https://hongbo-miao.gitbooks.io/excel/content/quick-start/angular.html).
 
 ## Learn more 
 

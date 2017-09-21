@@ -20,7 +20,7 @@ This project is showing how you can use Office.js and Angular 4 to build an Exce
 
 ## How to create a new project by yourself
 
-Follow the step by step tutorial [here](https://hongbo-miao.gitbooks.io/excel/content/quick-start/angular.html).
+Follow the step by step tutorial [here](https://github.com/Hongbo-Miao/office-addin-quick-start/blob/master/angular.md).
 
 ## Learn more 
 
